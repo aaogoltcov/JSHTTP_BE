@@ -1,0 +1,27 @@
+{
+  "name": "JSHTTP_BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/aaogoltcov/JSHTTP_BE.git",
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "aaogoltcov",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "http": "^0.0.1-security",
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.10"
+  },
+  "engines": {
+    "node": "12.x",
+    "yarn": "1.x"
+  }
+}
